@@ -1,7 +1,7 @@
 import React from 'react'
 import "./NewsArticle.css"
 
-function NewsArticle({author,title,description,url,urlToImage,publishedAt,key}) {
+function NewsArticle({author,title,description,url,urlToImage,publishedAt}) {
   return (<>
    
    <div className='news-article'>
